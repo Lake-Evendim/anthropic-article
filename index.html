@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anthropic Article — 文章页复刻</title>
+<link rel="preload" href="assets/fonts/anthropic-serif.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/anthropic-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/main.css?v=20261113-materials-2">
+</head>
+<body>
+
+<header class="site-header hide-on-scroll" data-theme="light">
+  <div class="skip-links">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <a class="skip-link" href="#footer">Skip to footer</a>
+  </div>
+  <div class="page-wrapper header-root">
+    <a href="#" aria-label="Home" class="logo-desktop">
+      <!-- 近似字标：原站为 Lottie 矢量字标（见 analysis/01-site-header.md · G4） -->
+      <svg class="logo-wordmark" viewBox="0 0 143 16" width="143" height="16" aria-hidden="true">
+        <text x="0" y="13" class="logo-text">ANTHROP\C</text>
+      </svg>
+    </a>
+    <nav class="header-nav" aria-label="Main">
+      <a href="#">Research<span class="caret" aria-hidden="true"></span></a>
+      <a href="#">Policy</a>
+      <a href="#">Commitments<span class="caret" aria-hidden="true"></span></a>
+      <a href="#">Learn<span class="caret" aria-hidden="true"></span></a>
+      <a href="#">News</a>
+    </nav>
+    <a href="#" class="header-cta">Try Claude<span class="caret caret-light" aria-hidden="true"></span></a>
+  </div>
+</header>
+
+<main id="main-content">
+
+  <nav class="side-toc" aria-label="Contents">
+    <ol class="toc-list">
+      <li><a href="#introduction" class="toc-link is-active" draggable="false"><span class="pill">Introduction</span></a></li>
+      <li><a href="#frontier" class="toc-link" draggable="false"><span class="pill">A new performance frontier</span></a></li>
+      <li><a href="#scientific-research" class="toc-link" draggable="false"><span class="pill">Scientific research</span></a></li>
+      <li><a href="#safety-security-and-alignment" class="toc-link" draggable="false"><span class="pill">Safety</span></a></li>
+      <li><a href="#mythos" class="toc-link" draggable="false"><span class="pill">Claude Mythos 5.1</span></a></li>
+      <li><a href="#cost-and-availability" class="toc-link" draggable="false"><span class="pill">Cost and availability</span></a></li>
+    </ol>
+  </nav>
+
+  <header class="launch-hero scene">
+    <!-- 场景画布由 js/hero-scene.js 创建并插入此处 -->
+    <div class="words">
+      <p class="text-prehead-tracked date">September 2026</p>
+      <h1 class="title" aria-label="Claude Fable 5.1 and Mythos 5.1">
+        <span class="title-line" aria-hidden="true"><span class="title-claude">:Claude:</span> Fable 5.1</span>
+        <span class="title-line title-line-second" aria-hidden="true">and Mythos 5.1</span>
+      </h1>
+      <nav class="index" aria-label="Contents">
+        <a href="#introduction" class="index-row" style="--fx-row:0"><span class="index-row-inner"><span class="index-number">[1]</span><span class="index-leader" aria-hidden="true"></span><span>Introduction</span></span></a>
+        <a href="#frontier" class="index-row" style="--fx-row:1"><span class="index-row-inner"><span class="index-number">[2]</span><span class="index-leader" aria-hidden="true"></span><span>A new performance frontier</span></span></a>
+        <a href="#scientific-research" class="index-row" style="--fx-row:2"><span class="index-row-inner"><span class="index-number">[3]</span><span class="index-leader" aria-hidden="true"></span><span>Scientific research</span></span></a>
+        <a href="#safety-security-and-alignment" class="index-row" style="--fx-row:3"><span class="index-row-inner"><span class="index-number">[4]</span><span class="index-leader" aria-hidden="true"></span><span>Safety, security, and alignment</span></span></a>
+        <a href="#mythos" class="index-row" style="--fx-row:4"><span class="index-row-inner"><span class="index-number">[5]</span><span class="index-leader" aria-hidden="true"></span><span>Claude Mythos 5.1</span></span></a>
+      </nav>
+    </div>
+    <span class="credit">Made with Fable 5.1</span>
+  </header>
+
+  <article class="article">
+    <div class="body launch-body" data-theme="ivory">
+      <span id="introduction" class="anchor"></span>
+
+      <p class="reading-column article-summary">We’re introducing Claude Fable 5.1 and Claude Mythos 5.1. They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute to scientific progress.</p>
+
+      <p class="reading-column body-2 serif post-text">Claude Fable 5.1 and Claude Mythos 5.1 are the same model, but with different levels of safeguards. Fable 5.1 is generally available, while Mythos 5.1 is available only through our trusted access programs; its safeguards are specifically designed to support work in cybersecurity and the life sciences.</p>
+
+      <p class="reading-column body-2 serif post-text">Alongside its increased capabilities, Fable 5.1 takes important steps towards addressing the feedback we’ve received from customers on price, data retention, and safeguards.</p>
+
+      <p class="reading-column body-2 serif post-text"><strong>Price<em>.</em></strong> Fable 5.1 will cost an estimated 25% less than Fable 5 for typical workloads, wherever usage is billed by token. This is because we’re reducing our pricing on cache reads (where the model reads inputs that have already been processed and stored). For highly agentic work, the savings will often be much larger—up to approximately 45%.</p>
+
+      <p class="reading-column body-2 serif post-text"><strong>Data retention<em>. </em></strong>Our new system of Enterprise Frontier Safeguards (EFS) gives customers complete privacy (the same as a zero data retention policy) while still being state-of-the-art at preventing adversarial use. EFS works by storing data in cloud infrastructure controlled entirely by the customer, not Anthropic. It will be made available to enterprise customers in phases, beginning later this fall. Until EFS is available, eligible customers will be able to use Fable 5.1 with zero data retention.</p>
+
+      <p class="reading-column body-2 serif post-text"><strong>Safeguards<em>. </em></strong>We’ve improved our safeguards to reduce false positives (where the system flags benign content). In cybersecurity, our newest safeguards block 60% fewer false positives than before. In part, this is because Fable 5.1 can now be used to discover software vulnerabilities—though not to develop exploits for them. In biology, we’ve established an access program, developed in partnership with the US government, to enable access to Claude Mythos 5.1’s advanced biology capabilities. We expect to open enrollment for scientists soon.</p>
+
+    </div>
+  </article>
+
+</main>
+
+<script src="js/hero-scene.js?v=20261113-materials-4"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# Local inspection artifacts
+.web-shader-extractor/
+.openclaw/
+
+# Runtime and editor files
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
